@@ -1,0 +1,25 @@
+.navbar {
+    position: relative;
+    background-color: hsl(180, 29%, 50%);
+    height: 10vh;
+}
+
+.navbar__container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+a { 
+   margin: auto;
+   text-align: center;
+   flex: 0.3;
+}
+
+a, a:visited{
+    color: white;
+}

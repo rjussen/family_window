@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.album {
+  background-color: black;
+  -webkit-animation: fade_up 1s forwards;
+          animation: fade_up 1s forwards;
+  position: relative;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+  height: 70vh;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.album__image {
+  opacity: 0.5;
+  aspect-ratio: inherit;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.album__text {
+  position: absolute;
+  bottom: 16%;
+  left: 50%;
+  margin-left: calc(calc(100% - 40px) / -2);
+  z-index: 2;
+  text-transform: capitalize;
+}
+
+.album__subtext {
+  bottom: 10%;
+}
+/*# sourceMappingURL=album.css.map */
